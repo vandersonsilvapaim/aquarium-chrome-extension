@@ -1,0 +1,59 @@
+<div className="fadeIn animated" style={ { padding: "30px" } }>
+    <div className="home">
+        <div className="">
+            <form className="">
+                <div className="form-group">
+                    <h1 class="heading">
+                        Click to turn
+                        <span class="on">
+                            <span> on </span>
+                        </span>
+                        <span class="off">
+                            <span> off </span>
+                        </span>
+                    </h1>
+                    <button type="button" class="btn" onClick={ this.clickHandler }>
+                        <span>
+                            <b>
+                            </b>
+                            <svg viewBox="-5.5 -5.5 71 71" id="circle">
+                                <circle cx="30" cy="30" r="30" stroke="white" stroke - width="11" fill="transparent">
+                                </circle>
+                            </svg>
+                        </span>
+                    </button>
+                    
+                    <br>
+
+                    <h2 style="margin-top: 0px; margin-bottom: 30px; text-align: center">
+                        <img src="/favicon-48x48.png" style="font-size: 60px; margin-bottom: 10px">
+                        </img>
+                        <br />
+                        Aquarium
+                        </h2>
+                            <input value={ this.state.email } onChange={ this.handleChange } type="email" name="email"
+                                className="" id="exampleInputEmail1" aria - describedby="emailHelp"
+                                placeholder="Digite a URL que deseja verificar..." required />
+                </div>
+                <div className="text-center">
+                    <button type="submit" onClick={ this.login } style="margin-right: 10px" className="">
+                        Validar
+                    </button>
+                </div>
+                <div className="text-center">
+                    <input type="checkbox" id="button">
+                    </input>
+                    <label for="button" class="button">
+                        Checkout
+                        URL
+                        <i class="fas fa-check">
+                        </i>
+                    </label>
+                    <svg class="circle">
+                        <circle cx="32" cy="32" r="31" />
+                    </svg>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

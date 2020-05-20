@@ -20,6 +20,19 @@ A extensão do Google Chrome tornar mais útil e segura as páginas da Web que v
 Você recebe notificações oportunas sobre links suspeitos e maliciosos automaticamente.
 É possível analizar até a barra de endereço.
 Você pode instalar gratuitamente pela Chrome Web Store.
+
+Testando aplicaçao
+Vamos no nosso terminal na pasta do projeto e vamos executar "npm run build” para buildarmos.
+O build sera gerado na pasta “/build”.
+
+Agora vamos ate a barra de endereços do chrome e vamos digitar “chrome://extensions”,
+
+Acessando as configurações de extensões podemos ativar o modo desenvolvedor.
+
+Quando fazemos isso conseguimos abrir algumas opções para testarmos nossa aplicação,
+ vamos em “Carregar sem compactação” e apontar a pasta “/build” do seu projeto.
+
+
 <!-- 
 This Chrome Extension was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

@@ -1,7 +1,7 @@
+
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import fire from './config/Fire'
-
 import Login from './login'
 import Membros from './Membros'
 
